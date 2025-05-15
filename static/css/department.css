@@ -178,7 +178,7 @@ body {
   }
   .faculty-img {
     width: 100%;
-    height: auto;
+    height: 200px;
     object-fit: contain;
     border-radius: 10px;
     margin-bottom: 15px;
