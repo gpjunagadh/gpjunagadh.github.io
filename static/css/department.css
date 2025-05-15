@@ -179,7 +179,7 @@ body {
   .faculty-img {
     width: 100%;
     height: auto;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 10px;
     margin-bottom: 15px;
   }
