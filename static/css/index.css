@@ -119,7 +119,7 @@ padding-bottom: 100px;
 
 /* Fix Sidebar */
 .sidebar {
-  position: sticky;
+  position: relative;
   top: 120px;  /* Adjust this to be the height of the header */
   left: 0;
   width: 250px;
@@ -127,7 +127,6 @@ padding-bottom: 100px;
   height: 100vh;     /* Full height */
   overflow-y: auto;  /* Vertical scrolling */
   z-index: 998;
-  padding-top: 0;    /* No padding to avoid gaps */
 }
 
 main {
