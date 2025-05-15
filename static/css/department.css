@@ -1,0 +1,202 @@
+body {
+    background-color: #000033;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    margin-left: 200px;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .sidebar {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #212529;
+    padding-top: 1rem;
+  }
+  
+  .sidebar .nav-link {
+    color: white;
+    padding: 0.5rem 1rem;
+  }
+  
+  .sidebar .nav-link:hover {
+    background-color: #343a40;
+    color: #ffd700;
+    transition: all 0.3s ease;
+  }
+  
+  .card-dept {
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    box-shadow: none;
+    transition: none;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .card-dept:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 15px rgba(255, 255, 255, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-dept.vision {
+    background-color: #8B0000;
+  }
+  
+  .card-dept.mission {
+    background-color: #A52A2A;
+  }
+  
+  .description-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 0;
+    margin-top: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  ul li::marker {
+    color: white;
+  }
+  
+  #contact a,
+  footer a {
+    color: #ffd;
+  }
+  
+  #contact a:hover,
+  footer a:hover {
+    text-decoration: underline;
+    color: #ffc107;
+  }
+  
+  header {
+    background-color: #001f54;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 4px solid #007bff;
+  }
+  
+  footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    bottom: 0;
+  }
+  .main-content {
+    margin-left: 200px;
+    padding: 20px;
+  }
+  .faculty-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  .heading1{
+    padding: 10px;
+  }
+  .facilities-box, .achievements-box, .faculty-box {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    color: #fff;
+  }
+  .section-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #00ffff;
+    border-left: 5px solid #00ffff;
+    padding-left: 10px;
+  }
+  .section-desc {
+    font-style: italic;
+    color: #ccc;
+    margin-bottom: 30px;
+  }
+  .lab-card {
+    background-color: #111133;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .lab-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 255, 255, 0.3);
+  }
+  .lab-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .lab-title {
+    color: #00ffff;
+    margin-top: 10px;
+  }
+  .lab-desc {
+    font-size: 0.9rem;
+    color: #ddd;
+  }
+  .achievements-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  .achievements-list li {
+    padding: 10px 0;
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .achievements-list i {
+    color: gold;
+    margin-right: 10px;
+  }
+  .faculty-card {
+    background-color: #112244;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  .faculty-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 20px rgba(0, 255, 255, 0.3);
+  }
+  .faculty-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  .faculty-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #00ffff;
+  }
+  .faculty-role {
+    font-style: italic;
+    color: #ccc;
+  }
+  .faculty-email {
+    color: #ddd;
+  }
+
+
+  
+  
+  
