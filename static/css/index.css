@@ -119,19 +119,18 @@ padding-bottom: 100px;
 
 /* Fix Sidebar */
 .sidebar {
-  position: relative;
-  top: 120px;  /* Adjust this to be the height of the header */
-  left: 0;
-  width: 250px;
-  background-color: #212529;
-  height: 100vh;     /* Full height */
-  overflow-y: auto;  /* Vertical scrolling */
-  z-index: 998;
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+width: 250px;
+background-color: #212529;
+overflow-y: auto;
+padding-top: 100px;
+z-index: 998;
 }
-
 main {
-  margin-left: 250px;
-  margin-top: 0; /* Adjust margin for fixed header */
+margin-left: 250px;
 }
 
 
@@ -184,6 +183,3 @@ main {
     font-size: 0.95rem;
   }
 }
-
-
-
