@@ -119,16 +119,15 @@ padding-bottom: 100px;
 
 /* Fix Sidebar */
 .sidebar {
-  position: fixed;
-  top: 0;
-  bottom: 0;
+  position: sticky; /* Make it sticky */
+  top: 0; /* Sticks to the top of the viewport */
   left: 0;
   width: 250px;
   background-color: #212529;
-  overflow-y: auto; /* Enable vertical scrolling */
   padding-top: 100px;
   z-index: 998;
-  height: 100vh; /* Make the sidebar take full height of the viewport */
+  height: 100vh; /* Make it the full height of the viewport */
+  overflow-y: auto; /* Enable vertical scrolling */
 }
 
 main {
