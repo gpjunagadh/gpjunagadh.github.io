@@ -196,6 +196,7 @@ body {
   .faculty-role {
     font-style: italic;
     color: #ccc;
+    margin-bottom: 5px;
   }
   .faculty-email {
     color: #ddd;
